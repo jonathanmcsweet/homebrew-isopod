@@ -16,6 +16,11 @@ class Isopod < Formula
   license "Apache-2.0"
   head "https://github.com/jonathanmcsweet/isopod.git", branch: "master"
 
+  livecheck do
+    url :stable
+    strategy :github_latest
+  end
+
   depends_on "bash"     # isopod uses bash 4+ features; macOS ships bash 3.2
   depends_on "openssh"  # ssh, ssh-keygen, ssh-keyscan
 
