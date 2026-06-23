@@ -12,7 +12,7 @@ class Isopod < Formula
   url "https://github.com/jonathanmcsweet/isopod/archive/refs/tags/v0.3.1.tar.gz"
   # Placeholder until v0.3.0 is tagged & pushed — replace with the real digest
   # (see RELEASING.md). Until then, install with `--HEAD`.
-  sha256 "49b69a6e8917887b53e6a2f566174a940ee1dcd65fea27425f56b22edda3a889"
+  sha256 "3e1a6de51e55d6fe07bfc429f31858f8d03eb79f3a61f78811a0d58cc251db8c"
   license "Apache-2.0"
   head "https://github.com/jonathanmcsweet/isopod.git", branch: "master"
 
