@@ -31,7 +31,7 @@ class Isopod < Formula
   def install
     # Mirror isopod's symlink install model: keep lib/ and security/ beside the
     # script so it resolves its helpers through the bin symlink.
-    libexec.install "isopod", "lib", "security"
+    libexec.install "isopod", "lib", "security", "share"
     bin.install_symlink libexec/"isopod"
 
     bash_completion.install "completions/isopod.bash" => "isopod"
