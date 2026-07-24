@@ -9,10 +9,10 @@
 class Isopod < Formula
   desc "Disposable, isolated IDE containers that keep AI agents off your host"
   homepage "https://github.com/jonathanmcsweet/isopod"
-  url "https://github.com/jonathanmcsweet/isopod/archive/refs/tags/v2.12.0.tar.gz"
+  url "https://github.com/jonathanmcsweet/isopod/archive/refs/tags/v2.13.0.tar.gz"
   # Placeholder until v0.3.0 is tagged & pushed — replace with the real digest
   # (see RELEASING.md). Until then, install with `--HEAD`.
-  sha256 "7fb399083f8cae126e58aa66d60b8add228357fef870d2f99c6f0a87a670afdd"
+  sha256 "2b5fe76302a947a1f6c1b896a03371dd11e25446f80530fec565acefe236cebd"
   license "Apache-2.0"
   head "https://github.com/jonathanmcsweet/isopod.git", branch: "master"
 
